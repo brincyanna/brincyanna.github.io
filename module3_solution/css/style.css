@@ -1,0 +1,95 @@
+body
+{
+	font-size: 16px;
+	color: #fff;
+  background-color:white;
+
+  font-family: 'Oxygen', sans-serif;
+}
+p{
+margin-top: 15px;
+padding:15px 5px 0px 5px;
+position: relative;
+}
+
+#header-nav
+{
+ background-color: grey;
+ border-radius: 0;
+ border:0;
+
+}
+.navbar-brand
+{
+	padding-top: 15px;
+}
+.navbar-brand h1
+{
+font-family: 'Lora', serif;
+color: black;
+font-size: 2em;
+font-weight: bold;
+text-align: left;
+margin-top: 0;
+margin-bottom: 20px;
+line-height: .75; 
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#nav-list {
+	margin-top: 0;
+  border: 2px solid black;
+  margin-bottom: 0;
+
+}
+#nav-list a {
+	color:black;
+	text-align: center;
+  border: 2px solid black;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.5em;
+}
+.row section{
+color: black;
+background-color: grey;
+margin-right: 10px;
+margin-top: 20px;
+padding: 3px;
+margin-left:10px;
+position: relative;
+text-align: justify;
+}
+
+
+.row
+{
+	width: 100%;
+}
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    background-color: white;
+    
+
+  }
+  
